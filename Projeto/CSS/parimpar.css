@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+ 
+    background-color: aqua;
+    background-image: url(../img/macaco.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+ .Titulo{
+    text-align: center;
+    
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    flex-wrap: wrap;
+}
+
+.container {
+    padding: 5px 5%;
+    background-color: transparent;
+    flex: 2 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.resultado {
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+    flex: 0 1 auto;
+    background-color: transparent;
+    text-align: center;
+    justify-content: center;
+    min-height: 50px;
+    background-color: #0002;
+    color: aliceblue;
+}
+
+.resultado .resultado{
+    flex-direction: column;
+    flex: 1 0 50%;
+}
+
+.resultado h1{
+    flex: 0 2 auto;
+}
+
+.resultado p{
+    flex: 2 0 auto;
+}
+
+.msgErro{
+    color: black;
+    width: 600px;
+    height: 30px;
+    text-decoration-line: underline;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.enviar {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    color: red;
+}
+
+
+
+
+

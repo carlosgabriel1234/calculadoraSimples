@@ -1,0 +1,67 @@
+body{
+    background-color: aqua;
+    background-image: url(../img/macaco.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+div{
+    background-color:transparent;
+    text-align: center;
+    padding: 10;
+    font-size: 20;
+    color: black;
+    margin-bottom: 3px;
+    
+    
+}    
+
+input{
+    outline: none; /*Desabilita a borda de marcação da caixa quando selecionada */
+    margin-top: 9px;
+}
+
+#formNotas{
+  
+    width: 500px;
+    height: 500px;
+    border: solid 0px #0001;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    margin-top: 20vh;
+}
+
+#botaoReset{
+    width: 80px;
+    height: 40px;
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;  
+    
+}
+
+#botaoReset a{
+    color: aliceblue;
+    text-decoration: none;
+    background-color: #000;
+}
+
+
+.msgErro{
+    color: black;
+    width: 600px;
+    height: 30px;
+    text-decoration-line: underline;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+

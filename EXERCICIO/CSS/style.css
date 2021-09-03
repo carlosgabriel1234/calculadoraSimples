@@ -1,0 +1,82 @@
+textarea{
+    resize: none; /*desabilita a opçao de redimensionar a textarea*/
+}
+input{
+    outline: none; /*desabilita a borda de marcação da caixa quando clicamos*/
+    
+}
+
+
+#formContatos{
+    
+width: 500px;
+    height: 500px;
+    /*border: solid 1px #000000;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;  
+    
+}
+div {
+    background-color:darkcyan;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #0001;
+    
+    
+}
+body{
+    background-color: aquamarine;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image:url(../barbie.jpeg);
+    background-repeat: no-repeat;
+       
+}
+ .destaque{
+            font-weight: bold;
+            color: brown;
+    }
+h1{
+    background-color: pink;
+    margin-top: auto;
+   text-align: center;
+    font-size: 3em;
+    color: azure;
+    border: solid 1px #000000;  
+    font-family:inherit;
+   
+    
+}
+label{
+    color: deeppink;
+    font-family:monospace;
+    font-size: 1.7em;
+}
+
+#resultado {
+    width: 200px;
+    height: 120px;
+    background-color:deeppink;
+    text-align: center;
+    padding-top: 50px;
+    box-sizing: border-box;
+    margin-top: auto;
+    margin-left: 300px;
+    font-size: 5m;
+    background-image: url(../baton.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.msgErro{
+    color: black;
+    width: 600px;
+    height: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: deeppink;
+}

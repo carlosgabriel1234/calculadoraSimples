@@ -1,0 +1,37 @@
+body{
+    background-color: aqua;
+    background-image: url(../img/macaco.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+div{
+    background-color:transparent;
+    text-align: center;
+    padding: 10;
+    font-size: 20;
+    color: black;
+    margin-bottom: 3px;
+    
+    
+    
+}    
+
+input{
+    outline: none; /*Desabilita a borda de marcação da caixa quando selecionada */
+    margin-top: 9px;
+}
+
+
+.msgErro{
+    color: black;
+    width: 600px;
+    height: 30px;
+    text-decoration-line: underline;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

@@ -1,0 +1,72 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.frmCalculo{
+    width: 450px;
+    height: 380px;
+    background-color: lavender;
+    margin-left: auto;
+    margin-right: auto;
+}
+.titulo{
+    background-color: black;
+    width: inherit;
+    height:100px;
+    
+}
+h1{
+    font-size:2em;
+    color:#ffffff;
+    text-align: center;
+    padding-top: 28px; 
+    font-family: arial;
+    
+}
+
+  
+
+#resultado{
+    width: 200px;
+    height: 100px;
+    background-color: cornsilk;
+    float: right;
+     text-align: center;
+    padding-top: 50px;
+    box-sizing: border-box;
+    margin-top: auto;
+    margin-left: 300px;
+    font-size: 5m;
+    background-image: url(../baton.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+ 
+
+.msgErro{
+    color: red;
+    width:600px;
+    height: 30px;
+/*    background-color: aqua;*/
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 5px;
+}
+body{
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image:url(../corinthians.jpg);
+    background-repeat: no-repeat;
+}
+      
+
+
+
